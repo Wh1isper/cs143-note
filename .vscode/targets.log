@@ -1,0 +1,335 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jul 19 12:24:31 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /home/wh1isper/cs143
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/wh1isper/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/wh1isper/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/wh1isper/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/home/wh1isper/.config/Code/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:52972
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+CHANGE_MINIKUBE_NONE_USER = true
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+QT_IM_MODULE = fcitx
+# environment
+USERNAME = wh1isper
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+MANAGERPID = 3557
+# environment
+CLUTTER_IM_MODULE = fcitx
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/wh1isper
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+NO_PROXY = localhost,127.0.0.0/8,::1,clash.razord.top,*.airange.*,*.qianxin.*,*.qianxin-inc.*,192.168.0.0/16,10.0.0.0/8,192.168.99.0/24,192.168.39.0/24,10.76.82.39,10.0.0.0/8,*.qianxin.*,*.qianxin-inc.*,dpi.cloudbrain2.pcl.ac.cn,*.yunanbao.*,datai.pcl.ac.cn,*.pcl.ac.cn,control-plane.minikube.internal
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/wh1isperHasee:@/tmp/.ICE-unix/4265,unix/wh1isperHasee:/tmp/.ICE-unix/4265
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+CONDA_PREFIX = /home/wh1isper/miniconda3
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 8f2fbe76dcd24d90a5bba1f1b3ff9661
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2934176
+# automatic
+%F = $(notdir $%)
+# environment
+HTTPS_PROXY = http://127.0.0.1:7890/
+# environment
+CONDA_EXE = /home/wh1isper/miniconda3/bin/conda
+# environment
+no_proxy = localhost,127.0.0.0/8,::1,clash.razord.top,*.airange.*,*.qianxin.*,*.qianxin-inc.*,192.168.0.0/16,10.0.0.0/8,192.168.99.0/24,192.168.39.0/24,10.76.82.39,10.0.0.0/8,*.qianxin.*,*.qianxin-inc.*,dpi.cloudbrain2.pcl.ac.cn,*.yunanbao.*,datai.pcl.ac.cn,*.pcl.ac.cn,control-plane.minikube.internal
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+PWD = /home/wh1isper/cs143
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 4222
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/wh1isper
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/wh1isper/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+LOGNAME = wh1isper
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = zh_CN.UTF-8
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /home/wh1isper/go/bin:/opt/spark-3.2.1//bin:/opt/spark-3.2.1//sbin:/home/wh1isper/miniconda3/bin:/home/wh1isper/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wh1isper/software/pycharm-2021.1.3/bin:/home/wh1isper/software/GoLand-2021.1.3/bin:/home/wh1isper/software/clion-2021.1.3/bin:/home/wh1isper/ide-jmeter/jmeter/bin
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = wh1isper
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := main.s
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh:en_US:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-b9a42f8d-1.69.1-main.sock
+# environment
+JMETER_PATH = /home/wh1isper/ide-jmeter/jmeter/bin
+# environment
+SPARK_HOME = /opt/spark-3.2.1/
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = zh_CN.UTF-8
+# environment
+HTTP_PROXY = http://127.0.0.1:7890/
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DISPLAY = :0
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+https_proxy = http://127.0.0.1:7890/
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/wh1isper/miniconda3/bin/python
+# environment
+QT4_IM_MODULE = fcitx
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+http_proxy = http://127.0.0.1:7890/
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2934176
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=122/1024=12%, Rehash=0, Collisions=21/147=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 7987345): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+ 
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+main.cl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main.s: main.cl
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	coolc main.cl -o main.s
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 09:33:45.43379848
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: main.s
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	spim main.s
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=1/19=5%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 170 B / avg = 8 B
+# current buf: size = 8162 B / used = 170 B / count = 20 / avg = 8 B
+
+# strcache performance: lookups = 29 / hit rate = 31%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Tue Jul 19 12:24:31 2022
+
+ 
