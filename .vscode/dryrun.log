@@ -1,5 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/wh1isper/cs143'
-coolc main.cl -o main.s
-make: Leaving directory '/home/wh1isper/cs143'
- 
